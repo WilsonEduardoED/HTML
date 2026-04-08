@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    
+
+    <style>
+         
+         body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+        .especial{
+           background-color: rgb(240, 137, 137);
+        }
+            
+        .especial::before{
+
+                content:"⇐" ; 
+            } 
+
+        .especial::after{
+ /* ===== adicionou a ceta na class especial,  ===== */            
+               content:"⇒";
+            text-decoration: none;
+            color: rgb(18, 159, 201);
+        }
+            
+            a:hover { 
+                
+/* ===== hover, funciona como: Quando o cursor toca, ele executado o comando que foi dado ===== */           
+           
+           
+                text-decoration: underline; 
+                font-weight:bold;
+                color: blue;
+                
+ 
+             }
+
+
+            a {
+/*===== O primeiro tirou o sublinhado do link. 2=negritou o texto===== */                
+                color: darkred;   
+                text-decoration:none;
+                     
+            }
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>Personalizando Links</h1>
+
+    <ul>
+
+        
+        <li><a target="_blank" href="https://www.youtube.com/watch?v=Mx92lTYxrJQ&list=RDgYGOVbyRfnA&index=6"> Link do YouTube</li></a>
+
+        <li><a class=especial href="https://gustavoguanabara.github.io ">Repositório GitHUB</li></a>
+
+        <li><a href="https://www.angolaimagebank.com/portfolio/G0000y8AQS5rXTY8/I0000heL4Qhb5EbA">Link Externo</li></a>
+    
+
+    </ul>
+</body>
+</html>

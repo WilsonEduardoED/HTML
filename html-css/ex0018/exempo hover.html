@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo hover</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+         div >p {
+
+            display: none;  <!-- criei a div(p)e e o que estiver dentro  vai (esconder o texto)-->
+         }
+
+         div:hover >p { 
+            display: block;
+            color: rgb(215, 234, 234);
+            background-color: red;
+            width: 300px;
+         } <!--  Esta div é responsavel por mostrar o texto econdido com as formatações-->
+
+         
+
+    </style>
+</head>
+<body>
+    
+    <h1>Exemplo de hover</h1>
+    <p>Passe o Mause sobre o texto abaixo</p>
+    
+    <div>
+     Passe o mause aqui
+    <p>TEXTO ECONDIDO...</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+
+        background-color:lightblue;
+        font-family:Cambria;
+        font-size:14px; 
+    }
+
+    h1{
+        color:brown
+         
+    }
+
+    h2{
+        color:blueviolet
+         
+    }
+
+    p{
+        text-align: justify;
+    }
