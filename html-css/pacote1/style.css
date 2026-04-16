@@ -163,6 +163,7 @@ main h1{
     font-family: android, Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, var(--corfundo),transparent);
     padding:2px;
+    font-weight: bold;
 }
 
 main h2{
