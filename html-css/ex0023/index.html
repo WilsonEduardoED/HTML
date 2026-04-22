@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Tabelas</title>
+
+
+    <style>
+
+        body{
+
+            font-family: Arial, Helvetica, sans-serif;
+           
+        }
+
+        table{
+            width: 400px;
+            height: 400px;
+             border-collapse: collapse;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            vertical-align: bottom;
+        }
+
+        tr.linha{
+
+            background-color: beige;
+
+
+        }
+        td.dado{
+            background-color: yellow;
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+<!-- Hierarquias das Tabelas
+    table= Tabelas
+    table header= cabeçalho da Tabelas
+    table data(td)= dado da Tabelas
+-->
+    
+</body>
+
+<table>
+
+    <tr class="linha"> <!--Primeira linha da tabela-->
+        <td>A1
+        <td>B1
+        <td>C1
+    </tr>
+
+    <tr> <!--Segunda linha da tabela-->
+        <td>A2
+        <td>B2
+        <td>C2
+    </tr>
+
+    <tr> <!--Terceira linha da tabela-->
+        <td>A3
+        <td>B3
+        <td>C3
+    </tr>
+
+    <tr> <!-- Quarta linha da tabela-->
+        <td>A4
+        <td>B4
+        <td class="dado">C4
+    </tr>
+
+
+
+
+
+
+</table>
+</html>
