@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+
+        table{
+            font-family: Arial, Helvetica, sans-serif; border-collapse: collapse;
+            width: 400px;
+             
+
+        }
+        td{
+            border: 1px solid black ;
+
+           
+        }
+
+        td.num{
+            text-align: right;
+        }
+        th{
+            background-color: antiquewhite;
+             border: 1px solid black ;
+        }
+
+        tfoot th{
+            background-color: rgb(122, 120, 117);
+        }
+
+        tbody tr:nth-child(2n){
+
+            background-color: lightgray;
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+    
+
+    <table>
+
+        <thead>
+            <caption style="padding: 10px; background-color: lightcoral;font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; ">População Total de Angola</caption>
+            <tr>
+                <th>Provincias</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Luanda</td>
+                <td class="num" style="width: 100px;">450 006</td>
+            </tr>
+
+             <tr>
+                <td>Benguela</td>
+                <td class="num">780 456</td>
+            </tr>
+
+             <tr>
+                <td>Malanje</td>
+                <td class="num">200 566</td>
+            </tr>
+             <tr>
+                <td>Moxico</td>
+                <td class="num">50 456</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+
+            <tr>
+
+                <th>Total</th>
+                <td class="num">3 859 687</td>
+            </tr>
+            
+        </tfoot>
+
+
+
+    </table>
+</body>
+</html>
