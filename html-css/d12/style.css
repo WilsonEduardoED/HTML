@@ -83,8 +83,9 @@ section.normal{
  }
  section#img02{
 
-    background-image: url(background002.jpg);
+    background-image: url(background002.jpg)  ;
     background-size: cover;
+    
    
  }
 
