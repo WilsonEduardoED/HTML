@@ -1,11 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+
+        table{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            width: 600px;
+            border-collapse: collapse;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 10px;
+             
+        }
+
+         th{
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+
+        .nome{
+            background-color: aquamarine;
+        }
+        .sexo
+        {
+            background-color: rgb(186, 139, 231);
+        }
+        .grupo{
+            background-color: rgb(132, 118, 118);
+        }
+        caption
+        {
+
+            padding: 10px;
+        }
+
+    </style>
 </head>
 <body>
-    
+
+
+        <table>
+
+            <colgroup>
+            
+                <col class="nome">
+                <col class="sexo">
+                <col class="grupo" span="2">
+                
+            
+            
+            </colgroup>
+        
+
+    <h1>Exercicos de Tabelas</h1>
+
+    <caption>Cadastro</caption>
+
+    <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Sexo</th>
+        <th scope="col">Idade</th>
+        <th scope="col">Profissão</th>
+
+    </tr>
+
+    <tr>
+        <td>Ana Maria</td>
+        <td>F</td>
+        <td>25</td>
+        <td>Jornalista</td>
+
+    </tr>
+
+     <tr>
+        <td>Wilson Eduardo</td>
+        <td>M</td>
+        <td>24</td>
+        <td>Informático</td>
+
+    </tr>
+
+ <tr>
+        <td>Josefa Andre</td>
+        <td>F</td>
+        <td>28</td>
+        <td>Nutricionista</td>
+
+    </tr>
+
+     <tr>
+        <td>Maria</td>
+        <td>F</td>
+        <td>25</td>
+        <td>Dentista</td>
+
+    </tr>
+     <tr>
+        <td>Ana </td>
+        <td>F</td>
+        <td>21</td>
+        <td>Cantora</td>
+
+    </tr>
+
+
+
+</table>
 </body>
 </html>
