@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Estilo para impressoras */
+
+html, body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+menu{
+    display: none;
+}
+
+article{
+    width: 100%;
+}
+article::after{
+
+content:"Este site foi desenvolvido pelo Wilson Ed";
+}
