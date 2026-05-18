@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+
+
+    <form action="cadastro.php" method="post">
+
+        <p><label for="prov">Provincia</label>
+            <select name="prov" id="prov">
+
+                <option  selected>Escolha</option>
+
+       <optgroup label="Norte">
+             
+                   <option  >Cabinda</option>
+                   <option  >Zaire</option>
+                   <option  >Uige</option>
+       </optgroup>
+
+       <optgroup label="Sul">
+
+
+                    <option  >Benguela</option>
+                    <option  >Huambo</option>
+                    <option  >Moxico</option>
+
+       </optgroup>
+
+
+    </select>
+
+    <p>
+        <label for="prof">Profissão</label>
+        <input type="text" name="prof" id="prof" list="op">
+
+        <datalist id="op">
+
+            <option>Professor</option>
+            <option>Advogado</option>
+            <option>Contabilista</option>
+            <option>Desenvolvedor</option>
+
+
+
+        </datalist>
+    </p>
+
+        <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+
+        <p>
+            <label for="msm">Mensagem:</label> <br>
+             <textarea name="sms" id="sms" cols="30" rows="10"></textarea>
+        </p>
+
+
+
+
+
+    </form>
+</body>
+</html>
